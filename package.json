@@ -1,0 +1,28 @@
+{
+  "name": "daf-test-replacement-transaction-underpriced",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.s",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "set DEBUG=* & node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolockenvitz/daf-test-replacement-transaction-underpriced.git"
+  },
+  "author": "Niko Lockenvitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolockenvitz/daf-test-replacement-transaction-underpriced/issues"
+  },
+  "homepage": "https://github.com/nikolockenvitz/daf-test-replacement-transaction-underpriced#readme",
+  "dependencies": {
+    "daf-core": "^6.1.1",
+    "daf-ethr-did": "^6.1.1",
+    "daf-fs": "^6.1.6",
+    "daf-libsodium": "^6.1.1",
+    "daf-resolver": "^6.0.0",
+    "debug": "^4.1.1"
+  }
+}
